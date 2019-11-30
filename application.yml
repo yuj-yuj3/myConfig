@@ -3,11 +3,15 @@ spring:
     active:
       - dev
 ---
+server:
+  port: 3331
 spring:
   profiles: dev
   application:
     name: config-dev
 ---
+server:
+  port: 3332
 spring:
   profiles: test
   application:
